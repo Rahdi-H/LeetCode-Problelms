@@ -1,3 +1,5 @@
+#Problem is to check if a number is palindrome or not
+#-----Solution Starts here
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         if x < 0:
@@ -10,6 +12,7 @@ class Solution:
             digit += 1
 
         return(x == reversed_number)
+#-----Solution ends here
 
 #Checking below
 a = Solution()
